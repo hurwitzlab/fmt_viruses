@@ -1,0 +1,12 @@
+export NETID=kolodisner
+export WORK_DIR=/xdisk/bhurwitz/virus_hunting/kolodisner/05_taxonomy
+export XFILE_DIR=/xdisk/bhurwitz/virus_hunting/data/all_assemblies
+export XFILE=xaa
+export METASPADES_CONTIG_DIR=/xdisk/bhurwitz/virus_hunting/data/all_assemblies/out_spades
+export MEGAHIT_CONTIG_DIR=/xdisk/bhurwitz/virus_hunting/data/all_assemblies/out_megahit
+export CONTAINERS=/contrib/singularity/shared/bhurwitz
+export KRAKEN2=/contrib/singularity/shared/bhurwitz/kraken2:2.1.3--pl5321hdcf5f25_0.sif
+export BRACKEN=/contrib/singularity/shared/bhurwitz/bracken:2.8--py39h1f90b4d_1.sif
+export KRAKENTOOLS=/contrib/singularity/shared/bhurwitz/krakentools:1.2--pyh5e36f6f_0.sif
+export DB_DIR=/groups/bhurwitz/databases/kraken2/k2_pluspf_20230605
+export KMER_SIZE=100
